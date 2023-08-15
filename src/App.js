@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
 
-function App() {
+import 'aos/dist/aos.css';
+
+import { Footer, Contact, Projects, Team, Header, Picobello } from './containers'
+import { Brand, Feature, Navbar } from './components';
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div className='gradient__bg'>
+        <Navbar /> 
+        <div className='navbar' data-aos='zoom-in' data-aos-duration='2000' data-aos-easing='ease'>
+          <Header />  
+        </div>
+        <Brand />
+        <Feature />
+        <Picobello />
+        <Projects />
+        <Team />
+        <Contact />
+        <Footer />
+      </div>      
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

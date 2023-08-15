@@ -1,0 +1,114 @@
+.pkb__header {
+    height: 100vh;
+    background-image: url('../../img/Rectangle\ 50.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.pkb__header-content {
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 80px;
+}
+
+.scroll {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.pkb__header h1 {
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    color: #FFFFFF;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.pkb__header p {
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 500px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.pkb__header button {
+    padding: 16px 36px 16px 36px;
+    background: #00AEEF;
+    color: #FFFFFF;
+    font-family: DM Sans;
+    border: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .pkb__header h1 {
+        font-size: 46px;
+        line-height: 50px;
+    }
+    
+    .pkb__header p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .pkb__header h1 {
+        font-size: 42px;
+        width: 400px;
+        line-height: 45px;
+    }
+    
+    .pkb__header p {
+        font-size: 14px;
+        width: 400px;
+        line-height: 20px;
+    }
+
+    .pkb__header-content {
+        margin: 0px 60px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .pkb__header h1 {
+        font-size: 40px;
+        width: 350px;
+        text-align: center;
+        line-height: 40px;
+    }
+    
+    .pkb__header p {
+        font-size: 12px;
+        width: 350px;
+        text-align: center;
+        line-height: 18px;
+    }
+
+    .pkb__header-content {
+        margin: 0px 20px;
+    }
+
+    .pkb__header {
+        align-items: center;
+    }
+    
+    .pkb__header-content {
+        align-items: center;
+        justify-content: center;
+    }
+}

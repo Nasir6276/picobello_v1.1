@@ -1,0 +1,119 @@
+.picobello_footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    background: #58585A;
+    align-items: center;
+}
+
+.picobello_footer-social {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.picobello_footer-social p {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.picobello_footer-contact {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.picobello_footer-contact p {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 0 10px 10px 10px;
+    cursor: pointer;
+}
+
+.picobello_footer-location {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.picobello_footer-location p {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 0 10px 0 10px;
+}
+
+.picobello_footer-copy {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    background: #3A3A3C;
+}
+
+.picobello_footer-copy p {
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 400;
+    
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1050px) {
+    .picobello_footer-social p {
+        font-size: 14px;
+    }
+
+    .picobello_footer-contact p {
+        font-size: 14px;
+    }
+
+    .picobello_footer-location p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .picobello_footer-social p {
+        font-size: 12px;
+    }
+
+    .picobello_footer-contact p {
+        font-size: 12px;
+    }
+
+    .picobello_footer-location p {
+        font-size: 12px;
+    }
+
+    .picobello_footer-copy p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .picobello_footer-social p {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .picobello_footer-contact p {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .picobello_footer-location p {
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    .picobello_footer-copy p {
+        font-size: 8px;
+        padding: 5px;
+    }
+}
